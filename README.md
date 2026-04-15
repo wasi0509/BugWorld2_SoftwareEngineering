@@ -2,6 +2,7 @@
 
 **Course:** Software Engineering Project — Constructor University, Spring 2026  
 **Team:** Giorgi Pataridze & Wai Huen Sin
+
 **Date:** 1 April 2026 to 13 April 2026
 
 ---
