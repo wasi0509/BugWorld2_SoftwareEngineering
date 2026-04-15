@@ -1,0 +1,95 @@
+flip 6 48 1      ;   0
+turn right 0     ;   1
+flip 99 2 2      ;   2
+sense here 4 5 home;   3
+drop 31          ;   4
+sense here 6 15 marker 0;   5
+sense here 7 10 marker 1;   6
+sense here 31 8 marker 2;   7
+direction 2 24 9 ;   8
+turn left 8      ;   9
+sense here 11 13 marker 2;  10
+direction 4 24 12;  11
+turn left 11     ;  12
+direction 0 24 14;  13
+turn left 13     ;  14
+sense here 16 21 marker 1;  15
+sense here 17 19 marker 2;  16
+direction 5 24 18;  17
+turn left 17     ;  18
+direction 1 24 20;  19
+turn left 19     ;  20
+sense here 22 31 marker 2;  21
+direction 3 24 23;  22
+turn left 22     ;  23
+move 3 25        ;  24
+flip 2 26 28     ;  25
+turn left 27     ;  26
+move 31 31       ;  27
+turn right 29    ;  28
+move 31 31       ;  29
+flip 99 30 30    ;  30
+sense here 32 33 home;  31
+drop 48          ;  32
+sense here 3 34 marker 4;  33
+sense leftahead 35 37 marker 4;  34
+turn left 36     ;  35
+move 37 37       ;  36
+sense rightahead 38 40 marker 4;  37
+turn right 39    ;  38
+move 40 40       ;  39
+flip 4 41 42     ;  40
+turn right 42    ;  41
+flip 4 43 44     ;  42
+turn left 44     ;  43
+move 31 45       ;  44
+turn right 46    ;  45
+flip 2 31 45     ;  46
+flip 99 47 47    ;  47
+sense here 79 49 marker 4;  48
+direction 0 50 54;  49
+mark 2 51        ;  50
+unmark 1 52      ;  51
+unmark 0 53      ;  52
+mark 4 54        ;  53
+direction 1 55 59;  54
+mark 2 56        ;  55
+mark 0 57        ;  56
+unmark 1 58      ;  57
+mark 4 59        ;  58
+direction 2 60 64;  59
+mark 1 61        ;  60
+mark 2 62        ;  61
+unmark 0 63      ;  62
+mark 4 64        ;  63
+direction 3 65 69;  64
+mark 0 66        ;  65
+unmark 1 67      ;  66
+unmark 2 68      ;  67
+mark 4 69        ;  68
+direction 4 70 74;  69
+mark 1 71        ;  70
+unmark 0 72      ;  71
+unmark 2 73      ;  72
+mark 4 74        ;  73
+direction 5 75 79;  74
+mark 1 76        ;  75
+mark 0 77        ;  76
+unmark 2 78      ;  77
+mark 4 79        ;  78
+sense here 80 82 food;  79
+sense here 82 81 home;  80
+pickup 31 82     ;  81
+sense ahead 87 83 food;  82
+sense leftahead 84 85 food;  83
+turn left 87     ;  84
+sense rightahead 86 87 food;  85
+turn right 87    ;  86
+flip 16 88 89    ;  87
+turn right 89    ;  88
+flip 16 90 91    ;  89
+turn left 91     ;  90
+move 48 92       ;  91
+turn right 93    ;  92
+flip 2 48 92     ;  93
+flip 99 94 94    ;  94

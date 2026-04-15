@@ -1,0 +1,32 @@
+search: 
+sense XXX marker 3 else walk
+move else search
+pickup else search
+goto home1
+walk:
+flip 3 else searchright
+turn left
+goto search
+searchright:
+flip 2 else searchstraight
+turn right
+goto search
+searchstraight:
+move else walk
+goto search
+home1:
+sense ahead home else walkhome
+move else home1
+drop
+goto search
+walkhome:
+flip 3 else walkhomeright
+turn left
+goto home1
+walkhomeright:
+flip 2 else walkhomestraight
+turn right
+goto home1
+walkhomestraight:
+move else walkhome
+goto home1

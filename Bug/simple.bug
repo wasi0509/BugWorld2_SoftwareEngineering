@@ -1,0 +1,6 @@
+move 1 0                                ; [   0]
+flip 5 2 0                              ; [   1]
+pickup 3 4                              ; [   2]
+move 4 4                                ; [   3]
+sense here 5 0 food                     ; [   4]
+move 4 4                                ; [   5]

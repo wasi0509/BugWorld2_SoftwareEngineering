@@ -1,0 +1,15 @@
+;
+; a simple bug
+;
+
+Start:
+    move else Start
+    flip 5 else Start
+    pickup else Fail
+    move else Fail
+
+Fail:
+    sense here food else Start
+    move else Fail
+    goto Fail
+    
